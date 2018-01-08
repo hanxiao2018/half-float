@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.hanxiao.dialogfragment.views.DemoFlipperPage0View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/demo_title_layout" />
+
+    <TextView
+        android:id="@+id/page_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="直接点击向右箭头会进入原始第二屏，点击body的任意区域可改变原始第二屏的视图"
+        android:textSize="20sp" />
+
+</com.example.hanxiao.dialogfragment.views.DemoFlipperPage0View>

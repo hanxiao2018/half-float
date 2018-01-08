@@ -1,0 +1,5 @@
+说明：
+这是一个基于viewflipper和dialogfragment的一个半浮层框架。
+该框架封装了消息交互机制
+业务方可以填充任何视图，视图只要实现IViewController接口，然后完成视图更新即可。
+具体可参见实例

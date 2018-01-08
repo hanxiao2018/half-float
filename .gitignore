@@ -1,0 +1,49 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+# refer to http://stackoverflow.com/questions/16736856/what-should-be-in-my-gitignore-for-an-android-studio-project
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# eclipse
+.classpath
+.settings
+.project
+
+# IDEA
+#out/
+
+# Android Studio
+*.iml
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+
+# gradle
+gradlew.bat
+gradle.properties
+
+#gradle task name caches
+.gradletasknamecache
+
+#gradle local configures
+local.gradle
+
+#tmp dir
+tmp/
